@@ -30,7 +30,7 @@ def post_to_telegram(image_path, caption):
                 print(f"❌ Telegram API Fehler: {response.text}")
                 return False
     except Exception as e:
-        print(f"❌ Fehler beim Senden: {e}")
+        print(f"❌ Fehler beim Senden an Telegram: {e}")
         return False
 
 
